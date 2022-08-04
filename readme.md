@@ -15,5 +15,5 @@
 
  ## What I learned from this project 
  - Most important thing which i learned from this projecy is about position and  .
- - also I explore about backgroun color and linear ingrediant .
+ - also I explore about backgroun color and linear gredient .
   

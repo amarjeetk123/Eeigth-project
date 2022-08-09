@@ -8,28 +8,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 .main-div{
-    height: 100vh;
-    background: linear-gradient( 60deg , white 48% ,#e176a1 40%,#ffffff );
-    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+   
 }
+.left-color{
+    /* background-color: #6F00ED; */
+    width: 53%;
+    height: 98vh;
+}
+
 nav{
+    margin-top: 20px;
+    position: absolute;
     width: 100% ;
     display: flex ;
-    align-items: center;
-    position:absolute;
+    justify-content: space-around; 
 }
 
 nav img{
-    margin-left: 160px;
     margin-top: 30px;
 }
 .nav-items{
    display: flex;
    margin-top: 30px;
-   margin-left: 180px;
 }
 .nav-item{
   margin: 0px 20px;
+  margin: 0px 30px;
+  font-size: 25px;
 
 }
 button{ 
@@ -43,29 +51,24 @@ button:hover{
 }
 .signin-btn{
     width: 110px; 
-    margin-left: 300px;
     margin-top: 30px;
     height: 25px;
     border: none;
     border-radius: 30px;
 }
-.intro-section{
-    height: 90vh;
-    width: 40%;
-   
-    display: flex;
-   
-}
+
 .left-section{
-    padding-top: 150px;
-    padding-left: 110px;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 23%;
 }
 .left-section h1{
-   font-size: 50px;
+   font-size: 70px;
    color: #383CC1;
 }
 .left-section h4{
-    width: 400px;
+    font-size: 20px;
   margin-top: 50px;
   margin-left: -5px;
  }
@@ -77,22 +80,28 @@ button:hover{
     height: 40px;
     margin-top: 50px;
  }
+ .right-color{
+    width: 48%;
+    height: 98vh;
+}
+.cover-image{
 
-.imgs-div{
-    width:600px ;
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 700px;
+    height: 98vh;
+    width: 100%;
 }
  .vector-img{
     position: absolute;
-    margin-top: 420px;
+    top: 60%;
     margin-left: 20px;
  }
  .main-image{
+    width: 45%;
     position: absolute;
+    top: 11%;
  }
  .vector-dot{
-    margin-top: 430px;
-    margin-left: 75px;
+    position: absolute;
+    top: 62%;
+  margin-left: 72px;
+    
  }
